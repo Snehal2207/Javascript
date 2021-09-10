@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Trupti Valley High School</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/todolist.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/todolist.js"></script>
+</head>
+
+<body>
+    <div id="navigation">
+        <header>
+            <a href="index.html"><img src="images/logo_size1.png" alt="School logo" class="logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="fs12">Home</a></li>
+                <li><a href="quiz.html" class="fs12">Quiz</a></li>
+                <li><a href="todolist.html" class="fs12">List</a></li>
+                <li><a href="score1.html" class="fs12">Score</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <!-- Home Banner  -->
+        <div id="home-banner"></div>
+
+        <!-- list -->
+        <div class="container">
+            <h2 class="div-space center">List of Activity</h2>
+            <!-- input activity -->
+            <div id="addActivity">
+                <input type="text" name="todoList" id="todoListinput" placeholder="Enter Activity">
+                <input type="button" id="add_button" value="Add">
+            </div>
+            <!-- activity list  -->
+            <div id="activityList" class="div-space">
+                <ul id="orderList">
+                    <li><input class="checkbox" type="checkbox">Mid-term Exam<a class="remove">x</a></li>
+                    <li><input class="checkbox" type="checkbox">Project Due<a class="remove">x</a></li>
+                    <li><input class="checkbox" type="checkbox">In-class Assignment<a class="remove">x</a></li>
+                    <li><input class="checkbox" type="checkbox">Sports Week<a class="remove">x</a></li>
+                    <li><input class="checkbox" type="checkbox">Quiz<a class="remove">x</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="center">
+            <p class="lh">Copyright &#169; 2021 Trupti Valley High School. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
