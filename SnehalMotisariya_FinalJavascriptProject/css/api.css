@@ -1,0 +1,79 @@
+a {
+    color: blue;
+}
+
+table {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    /* margin-left: 15%; */
+}
+
+thead th {
+    height: 40px;
+    color: white;
+    background-color: #f16b44;
+    font-size: 1.3em;
+}
+
+td {
+    /* width: 30px; */
+    font-size: 1em;
+    height: 30px;
+}
+
+tr:nth-child(odd) {
+    background-color: #fce3dc;
+    /* width: 30px; */
+}
+
+.selectBox {
+    display: flex;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+select {
+    /* width: 100%; */
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    resize: vertical;
+    margin-left: 40%;
+    /* padding-left: 6%; */
+    /* margin-left: 1% 35%; */
+}
+
+input[type="submit"] {
+    background-color: #f16b44;
+    color: white;
+    /* padding: 8px 24px; */
+    border: none;
+    border-radius: 0;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 2%;
+    width: 100px;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #c43e15;
+}
+
+@media(max-width:768px) {
+    .selectBox {
+        flex-direction: column;
+        margin: 1%;
+        /* text-align: center; */
+    }
+    select {
+        margin: 2% 15%;
+        width: 70%;
+    }
+    input[type=submit] {
+        margin: auto;
+        padding: 1.5% 2%;
+        /* text-align: center; */
+    }
+}
