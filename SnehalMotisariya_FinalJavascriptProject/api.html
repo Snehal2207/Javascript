@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Preshco Supermarket</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/api.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/api.js"></script>
+</head>
+
+<body>
+    <div id="navigation">
+        <header>
+            <a href="grocery.html"><img src="images/logo_size.png" alt="Super store logo" class="logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="grocery.html" class="fs12">List</a></li>
+                <li><a href="api.html" class="fs12">API</a></li>
+                <li><a href="contact.html" class="fs12">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <!-- Home Banner  -->
+        <div id="home-banner"></div>
+
+        <!-- Contact Us Form -->
+        <div class="container">
+            <h2 class="div-space center">Api</h2>
+            <div class="selectBox">
+                <select id="country_name">
+                    <option>India</option>
+                    <option>Canada</option>
+                    <option>United States</option>
+                    <option>United Kingdom</option>
+                    <option>Australia</option>
+                    <option>France</option>
+                    <option>Germany</option>
+                </select>
+                <input type="submit" value="Submit" id="btn_country">
+            </div>
+
+            <div id="api-data">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="center ">
+            <p class="lh ">Copyright &#169; 2021 Preshco Supermarket. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
