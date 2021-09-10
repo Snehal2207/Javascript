@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grocery>
+    <grocery-item>
+        <name>Potato</name>
+        <price>$1.0</price>
+        <quantity>1 kg</quantity>
+        <photo>potato.png</photo>
+        <oldprice>$1.5</oldprice>
+        <discount>25%</discount>
+    </grocery-item>
+    <grocery-item>
+        <name>Tomato</name>
+        <price>$0.90</price>
+        <quantity>1 kg</quantity>
+        <photo>tomato.png</photo>
+        <oldprice>$1.5</oldprice>
+        <discount>30%</discount>
+    </grocery-item>
+    <grocery-item>
+        <name>Green-Beans</name>
+        <price>$1.0</price>
+        <quantity>1 kg</quantity>
+        <photo>beans.png</photo>
+        <oldprice>$1.2</oldprice>
+        <discount>20%</discount>
+    </grocery-item>
+    <grocery-item>
+        <name>Cauliflower</name>
+        <price>$1.2</price>
+        <quantity>1 kg</quantity>
+        <photo>caulyflower.png</photo>
+        <oldprice>$1.5</oldprice>
+        <discount>10%</discount>
+    </grocery-item>
+
+    <fruit-item>
+        <name>Apple</name>
+        <price>$0.2</price>
+        <quantity>6 Piece</quantity>
+        <photo>apple.png</photo>
+        <oldprice>$0.4</oldprice>
+        <discount>50%</discount>
+    </fruit-item>
+    <fruit-item>
+        <name>Banana</name>
+        <price>$0.3</price>
+        <quantity>10 Piece</quantity>
+        <photo>banana.png</photo>
+        <oldprice>$0.4</oldprice>
+        <discount>25%</discount>
+    </fruit-item>
+    <fruit-item>
+        <name>Dragon-Fruit</name>
+        <price>$0.8</price>
+        <quantity>5 Piece</quantity>
+        <photo>dragonfruit.png</photo>
+        <oldprice>$1.0</oldprice>
+        <discount>20%</discount>
+    </fruit-item>
+    <fruit-item>
+        <name>Stawbarry</name>
+        <price>$0.3</price>
+        <quantity>20 Piece</quantity>
+        <photo>strawberry.png</photo>
+        <oldprice>$0.5</oldprice>
+        <discount>20%</discount>
+    </fruit-item>
+
+    <snack-item>
+        <name>Waffers</name>
+        <price>$0.5</price>
+        <weight>200gm</weight>
+        <photo>wafers.png</photo>
+        <oldprice>$1.0</oldprice>
+        <discount>50%</discount>
+    </snack-item>
+    <snack-item>
+        <name>Biscuits</name>
+        <price>$1.3</price>
+        <weight>200gm</weight>
+        <photo>biscuits.png</photo>
+        <oldprice>$1.6</oldprice>
+        <discount>10%</discount>
+    </snack-item>
+    <snack-item>
+        <name>Crackers</name>
+        <price>$1.5</price>
+        <weight>500gm</weight>
+        <photo>crackers.png</photo>
+        <oldprice>$2.5</oldprice>
+        <discount>50%</discount>
+    </snack-item>
+    <snack-item>
+        <name>Muffins</name>
+        <price>$1.0</price>
+        <weight>50gm</weight>
+        <photo>muffins.png</photo>
+        <oldprice>$1.5</oldprice>
+        <discount>25%</discount>
+    </snack-item>
+</grocery>
