@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Preshco Supermarket</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+</head>
+
+<body>
+    <div id="navigation">
+        <header>
+            <a href="grocery.html"><img src="images/logo_size.png" alt="Super store logo" class="logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="grocery.html" class="fs12">List</a></li>
+                <li><a href="api.html" class="fs12">API</a></li>
+                <li><a href="contact.html" class="fs12">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <!-- Home Banner  -->
+        <div id="home-banner"></div>
+
+        <!-- Contact Us Form -->
+        <div class="container">
+            <h2 class="div-space center">Contact Us</h2>
+            <div class="space-bottom-right1">
+                <form class="form" id="contact_form" action="#">
+                    <div class="row-version2">
+                        <div class="col-75">
+                            <img class="icon-image" alt="icon" src="images/user.png">
+                            <input type="text" id="user_name" placeholder="Your Name">
+                            <span id="error_name"></span>
+                        </div>
+                    </div>
+                    <div class="row-version2">
+                        <div class="col-75">
+                            <img class="icon-image" alt="icon" src="images/phone.png">
+                            <input type="text" class="userInput" id="phone_number" placeholder="Your Phone Number">
+                            <span id="error_phone"></span>
+                        </div>
+                    </div>
+                    <div class="row-version2">
+                        <div class="col-75">
+                            <img class="icon-image" alt="icon" src="images/mail.png">
+                            <input type="text" id="email" class="userInput" placeholder="Your Email">
+                            <span id="error_email"></span>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="col-75">
+                            <img class="icon-image1" alt="icon" src="images/comments.png">
+                            <textarea id="comments" placeholder="Any Query.."></textarea>
+                        </div>
+                    </div>
+                    <div class="row-version2">
+                        <input type="submit" value="Submit" id="mySubmit">
+                    </div>
+                </form>
+
+            </div>
+
+
+
+        </div>
+    </main>
+    <footer>
+
+        <div class="center">
+            <p class="lh">Copyright &#169; 2021 Preshco Supermarket. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
