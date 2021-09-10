@@ -1,0 +1,74 @@
+.tag{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+ul {
+    list-style: none;
+}
+.choiceList li {
+    display: block; 
+     margin: auto;
+} 
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 1em;
+}
+.quizContainer {
+    background-color: #d6eef5;;
+    /* border-radius: 6px; */
+    width: 75%;
+    margin: auto;
+    padding-top: 15px;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 5px 5px 5px #888;
+    position: relative;
+}
+.nextButton {
+    box-shadow: 3px 3px 5px #616161;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #0d5368;
+    color: white;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+.nextButton:hover{
+    background-color: #083a49;
+}
+.question {
+    font-size: 1.4em;
+    width: 90%;
+    height: auto;
+    margin-left: 10%;
+    text-align: center;
+}
+.errorMessage {
+    /* background-color: none; */
+    margin: auto;
+    text-align: center;
+    padding: 3px;
+    color:red;
+}
+.choiceList {
+    color: black;
+    font-size: 1em;
+    padding-left: 45%;
+}
+.result {
+    height: auto;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+@media(max-width:768px){
+	.choiceList{
+        padding-left: 35%;
+    }
+}
