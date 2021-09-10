@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, monospace, serif;
+    margin: 0;
+    color: black;
+    letter-spacing: 1px;
+}
+
+#navigation {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    box-shadow: 0px 1px 10px 1px #00000087;
+}
+
+.logo {
+    padding-top: 2%;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    margin-left: 5.5%;
+    padding-top: .1%;
+    padding-bottom: .1%;
+}
+
+nav ul,
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav a:link {
+    color: #f16b44;
+}
+
+nav a:active {
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: #f55929;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: #bb330a;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    margin: 0 2%;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.fs12 {
+    font-size: 1.2em;
+}
+
+#home-banner {
+    margin-top: 0;
+    background-image: url("../images/home-banner.png");
+    height: 410px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    width: 100%;
+}
+
+.div-space {
+    padding: 2% 3%;
+}
+
+.row {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+
+.space-bottom-right {
+    padding-right: 2.2%;
+    margin-bottom: 5%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-ver2 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.col-4 {
+    width: 33.33%;
+    margin-bottom: 0;
+}
+
+.col-3 {
+    width: 25%;
+    margin-bottom: 0;
+}
+
+.space-bottom-right1 {
+    margin: 0 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f8e5df;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 1.1em;
+}
+
+h3,
+p {
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+/* footer */
+
+.text {
+    background-color: #f16b44;
+    color: white;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.padding-bottom {
+    padding-bottom: 4%;
+}
+
+.lh {
+    line-height: 1.5em;
+    padding: 2px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #2a222d;
+    overflow: auto;
+    margin-top: 3em;
+}
+
+footer p {
+    color: white;
+    margin: 0.5em;
+}
+
+@media(max-width:768px) {
+    #home-banner {
+        margin-top: 0;
+        background-image: url("../images/home-banner.png");
+        /* height:410px; */
+        height: 200px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .space-bottom-right1 {
+        margin: 0 15%;
+        /* box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%); */
+    }
+    .col-4 {
+        width: 70%;
+        margin-bottom: 2%;
+    }
+    .hover-img1 img {
+        width: 600px;
+    }
+    /* #navigation {
+        font-size: 0.5em;
+    } */
+    #navigation {
+        position: unset;
+        flex-direction: column;
+        padding: 0;
+    }
+    header {
+        margin: 1% 0;
+    }
+    nav {
+        width: 100%;
+        margin: 0 0;
+        padding: 0;
+    }
+    nav ul {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        background-color: #f8e5df;
+    }
+    nav li {
+        margin: 0;
+        padding: 3%;
+    }
+}
