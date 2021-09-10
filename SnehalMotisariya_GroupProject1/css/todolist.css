@@ -1,0 +1,72 @@
+#addActivity{
+  text-align: center;
+}
+input {
+  margin-left:auto;
+  margin-bottom: .5em;
+  padding: 6px 0;
+  font-size: 1em;
+}
+input[type="button"]{
+  border-radius: 0;
+  padding: 8px 10px;
+  background-color:#3d889f;
+  color: white;
+  border: none;
+  width: 60px;
+  font-size: 1em;
+}
+input[type="button"]:hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color:#0d5368;
+}
+
+#orderList{
+  margin: 0;
+  padding: 0;
+}
+
+#orderList li {
+  cursor: pointer;
+  display: block;
+  width: 60%;
+  margin: auto;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #e9f3f7;;
+  font-size: 1.2em;
+  transition: 0.2s;
+}
+
+#orderList li:nth-child(odd) {
+  background: #bce5f1;;
+}
+  
+#orderList li:hover {
+  background: rgb(164, 204, 218);;
+}
+  
+ul li.checked {
+  background: #68aabe;
+  color: rgb(88, 88, 88);
+  text-decoration: line-through;
+}
+
+.remove {
+  float: right;
+  cursor: pointer;
+  color: black;
+  padding: 0 8px;
+}
+  
+.remove:hover {
+  background-color: #3d889f;
+  color: white;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  margin: 3px 10px;
+}
