@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Find the Penguins</title>
+    <meta charset="utf-8">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <div id="gameholder">
+        <div id="title"></div>
+        <div id="score">
+            <div>Score:<span id="_current_score">0</span></div>
+            <div>Highest Score:<span id="_highest_score">0</span></div>
+        </div>
+        <div id="game">
+            <div class="penguin" id="penguin1"></div>
+            <div class="penguin" id="penguin2"></div>
+            <div class="penguin" id="penguin3"></div>
+            <div class="penguin" id="penguin4"></div>
+            <div class="penguin" id="penguin5"></div>
+            <div id="yeti"></div>
+            <div class="penguin" id="penguin6"></div>
+            <div class="penguin" id="penguin7"></div>
+            <div class="penguin" id="penguin8"></div>
+            <!-- <audio controls>
+                <source src="audio/penguin-ding.mp3" type="audio/mpeg" hidden></source>
+            </audio> -->
+            <audio src="audio/penguin-ding.mp3" type="audio/mpeg" id="penguin_audio"></audio>
+            <audio src="audio/yeti-ding.wav" type="audio/wav" id="yeti_audio"></audio>
+        </div>
+    </div>
+</body>
+
+</html>
