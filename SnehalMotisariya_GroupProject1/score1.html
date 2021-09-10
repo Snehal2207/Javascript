@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Trupti Valley High School</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/score.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/score.js"></script>
+</head>
+
+<body>
+    <div id="navigation">
+        <header>
+            <a href="index.html"><img src="images/logo_size1.png" alt="School logo" class="logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="fs12">Home</a></li>
+                <li><a href="quiz.html" class="fs12">Quiz</a></li>
+                <li><a href="todolist.html" class="fs12">List</a></li>
+                <li><a href="score.html" class="fs12">Score</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <!-- Score Banner  -->
+        <div id="score-banner"></div>
+
+        <!-- input for name and score -->
+        <div class="container">
+            <h2 class="div-space center">Score List</h2>
+            <div class="form">
+                <div class="row-ver2">
+                    <div class="col-25">
+                        <label>First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="first_name" placeholder="Your name">
+                    </div>
+                </div>
+                <div class="row-ver2">
+                    <div class="col-25">
+                        <label>Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="last_name" placeholder="your last name">
+                    </div>
+                </div>
+                <div class="row-ver2">
+                    <div class="col-25">
+                        <label>English</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="sub_1">
+                    </div>
+                </div>
+                <div class="row-ver2">
+                    <div class="col-25">
+                        <label>Maths</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="sub_2">
+                    </div>
+                </div>
+                <div class="row-ver2">
+                    <div class="col-25">
+                        <label>Science</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="sub_3">
+                    </div>
+                </div>
+                <div class="row-ver2">
+                    <input type="button" id="add_button" value="Add Student Score"><br>
+                    <input type="button" id="clear_button" value="Clear Student Score"><br>
+                    <input type="button" id="sort_button" value="Sort By FirstName">
+                </div>
+
+            </div>
+
+            <!-- score list display in table formate -->
+            <h2 class="div-space center">Student Score</h2>
+            <div id="table_score"></div>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="center">
+            <p class="lh">Copyright &#169; 2021 Trupti Valley High School. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
