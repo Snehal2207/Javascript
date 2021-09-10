@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    color: #fff;
+    background-color: #345252;
+    padding-left: 105px;
+    height: 100px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom:1px solid #223300;
+    margin-bottom: 20px;
+}
+h1{
+    /* line-height: 200%*/
+     font-size: 2.5em;
+ }
+ footer{
+    color: #fff;
+    background-color:#345252;
+    font-size: 0.80em;
+    text-align: center;
+    padding: 1em;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.result{
+    display: grid;
+    width: 650px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#result{
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #f0f5f5;
+    border: 2px solid cadetblue;
+}
+.button{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=button]{
+    height: 70px;
+    margin: 2px;
+    font-size: large;
+}
+.clear{
+   /*grid-column-start: 1;
+    grid-column-end: 3;*/
+    background-color: brown;
+    color: blanchedalmond;
+}
+.clear:hover{
+    background-color: rgb(117, 30, 30);
+}
+.equal{
+    /*grid-column-start:4 ;
+    grid-column-end: 6;*/
+    padding: 2px;
+}
+.operator,.func,.percent,#changesign,.brackets{
+    background-color: #c2d4d4;
+    box-shadow: 1.5px 1.5px cadetblue;
+    border:none;
+}
+.operator:hover,.number:hover,.func:hover,#changesign:hover,.brackets:hover{
+    background-color: #a6afaf;
+}
+.number{
+    background-color: #f0f5f5;
+    box-shadow: 1.5px 1.5px cadetblue;
+    border:none;
+}
+.equal{
+    background-color: #345252;
+    color: blanchedalmond;
+    box-shadow: 1.5px 1.5px cadetblue;
+    border:none;
+}
+.equal:hover{
+    background-color: #223535;
+}
+
+#backspace{
+    background-image: url("images/backspace.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x:2.3em;
+    background-position-y: 1em;
+}
