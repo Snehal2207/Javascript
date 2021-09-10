@@ -1,0 +1,103 @@
+.list_item {
+    margin: auto;
+    text-align: center;
+    /* width:3000px; */
+}
+
+.btn_suggestion {
+    color: black;
+    margin: 0;
+    font-size: 0.8em;
+    ;
+}
+
+.btn_orange {
+    padding: 10px;
+    background-color: #f16b44;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 1% 25%;
+}
+
+.btn_orange:hover {
+    background-color: #bb330a;
+}
+
+.grocery_item {
+    width: 90%;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.div-space1 {
+    padding: 2% 3%;
+}
+
+.col-5 {
+    flex: 20%;
+    background-color: #fce9e4;
+    color: black;
+    margin: 1.8%;
+    padding: 0;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.col-5:hover {
+    transform: scale(1.15);
+}
+
+.item_name {
+    font-size: 1.2em;
+    padding-top: 5px;
+}
+
+.item_quantity {
+    padding-bottom: 5px;
+}
+
+.item_quantity,
+.item_price {
+    font-size: 0.9em;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.item_price {
+    margin-right: 5%;
+}
+
+.oprice {
+    color: grey;
+    text-decoration: line-through;
+    font-size: 0.9em;
+}
+
+.item_image {
+    position: relative;
+}
+
+.item_discount {
+    position: absolute;
+    background-color: #cc461e;
+    color: white;
+    padding: 3px;
+    top: 8%;
+    font-size: 0.9em;
+}
+
+@media(max-width:768px) {
+    .col-5 {
+        flex: 30%;
+        margin: 5%;
+        /* width: 60%; */
+    }
+}
